@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+h1,h2,h3,h4,h5{
+    font-family: 'EB Garamond', serif;
+}
+p,a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+
+}
+.btn{
+    background: #B68C5A;
+    color: #fff;
+    border: none;
+}
+.btn:hover{
+    background: #111111;
+}
+
+
+#home{
+    min-height: 100vh;
+    background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url(img/banner.png);
+    /* background-image: url(img/banner.png); */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+.round{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.list{
+    list-style: none;
+}
+.input-group-text{
+    background-color: #B68C5A;
+    font-size: 20px;
+    
+}
+@media (max-width:799px){
+    .row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }   
+
+    .btn-primary{
+        width: 90px;
+        font-size: 10px;
+    }
+    .s-box{
+        width: 100%;
+    }
+    .accordion{
+        width: 100%;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .logo{
+        width: 100%;
+        padding-left: 50px;
+    }
+   
+}
